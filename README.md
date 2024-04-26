@@ -350,11 +350,11 @@ public class Student{
 - 传递一个字符，字节数组，根据字符数组的内容再创建一个新的字符串对象。可实现字符串内容的修改，如下
 
 ```java
-public class String{
+public class Test{
 	public static void main(String[] args){
 		char[] chs = {'a','b','c','d'};
 		String s = new String(chs);
-		Sysrem.out.println(s);
+		System.out.println(s);
 	}
 }
 ```
@@ -498,7 +498,7 @@ static表示静态，是java中的一个修饰符，可以修饰成员方法、�
 
 - javabean类	用来描述一类事物。如：Student、Teacher、Dog、Cat等
 - 测试类      用来检查其他类是否书写正确，带有main方法的类，是程序的入口
-- 工具类			不是用来描绘一类事物的，而是帮助我们做一些事情的类
+- 工具类	  不是用来描绘一类事物的，而是帮助我们做一些事情的类
 
 工具类注意：
 
@@ -540,7 +540,7 @@ Java只支持单继承，不支持多继承，但支持多层继承。即：一�
 
 #### 5、成员方法被继承
 
-通过虚放方法表：
+通过虚方法表：
 
 最高级父类开始设立虚方法表，虚方法表中记录了常用的方法：非private，非static，非final
 
